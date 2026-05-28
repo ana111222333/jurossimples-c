@@ -1,0 +1,4 @@
+float jurosSimples(float capital, float taxa, int tempo) {
+
+    return capital * taxa * tempo;
+}

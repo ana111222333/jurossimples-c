@@ -1,0 +1,17 @@
+#include <assert.h>
+#include <stdio.h>
+
+#include "function_jurossimples.c"
+
+int main() {
+
+    assert(jurosSimples(100, 0.5, 10) == 500);
+    assert(jurosSimples(100, 0.25, 12) == 300);
+    assert(jurosSimples(100, 0.75, 5) == 375);
+
+    printf("Todos os testes passaram!\n");
+
+    printf("Criado por Ana");
+
+    return 0;
+}
